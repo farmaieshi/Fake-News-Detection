@@ -1,7 +1,9 @@
 # Fake News Detection using NLP & Machine Learning
 
 001📌 Project Overview
-In the era of information overload, misinformation and "fake news" have become a significant challenge. This project aims to build an automated system that classifies news articles as either **True** or **Fake** using Natural Language Processing (NLP) and robust Machine Learning algorithms.
+In the era of information overload, misinformation and "fake news" have become a significant challenge. 
+This project aims to build an automated system that classifies news articles as either **True** or **Fake** 
+using Natural Language Processing (NLP) and robust Machine Learning algorithms.
 
 002 🛠️ Tech Stack
 - **Language:** Python 3.x
@@ -26,7 +28,8 @@ The dataset is sourced from the **Fake News Detection Challenge (KDD 2020)** on 
 4. **Optimization:** Used **GridSearchCV** with **Cross-Validation** to find the most efficient hyperparameters.
 
 005📈 Key Results
-The model achieves a high accuracy rate (approx. 78%+), with the **Passive Aggressive Classifier** and **Logistic Regression** showing the most reliable performance for text-based classification.
+The model achieves a high accuracy rate (approx. 78%+), with the **Passive Aggressive Classifier** 
+and **Logistic Regression** showing the most reliable performance for text-based classification.
 
 006 📁 Repository Structure
 ```text
