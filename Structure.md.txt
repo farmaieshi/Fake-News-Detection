@@ -1,0 +1,8 @@
+Fake-News-Detection/
+│
+├── README.md
+├── requirements.txt
+├── data/
+│   └── train.csv
+├── notebooks/
+│   └── Fake_News_Analysis.ipynb
