@@ -46,9 +46,19 @@ and was selected as the final model after hyperparameter tuning.
 
 
 006 📁 Repository Structure
+Fake-News-Detection
 
-├── data/                  # train.csv
-├── notebooks/             # Text-Analytics.ipynb
-├── models/                # fake_news_model.pkl
-├── README.md
-└── requirements.txt
+README.md
+
+requirements.txt
+
+data/
+    train.csv
+
+notebooks/
+    Fake_News_Analysis.ipynb
+
+models/
+    fake_news_model.pkl
+
+images/
