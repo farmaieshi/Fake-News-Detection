@@ -17,15 +17,21 @@ The dataset is sourced from the "Fake News Detection Challenge (KDD 2020)" on Ka
    2.Fake News (1): Potentially unreliable or fabricated articles.
 
 004 🚀 Machine Learning Pipeline
-   1.Data Cleaning:** Removing URLs, special characters, and converting emojis to text to preserve emotional context.
-   2.Feature Extraction: Using "TF-IDF Vectorizer" with `ngram_range=(1,2)` to capture both single words and phrases.
+   1.Data Cleaning: 
+      -Removing URLs, special characters
+      -converting emojis into text
+      -Normalized text
+   2.Feature Extraction: 
+      -TF-IDF Vectorizer
+      -ngram_range=(1,2)` to capture both single words and phrases.
    3.Model Benchmarking:Evaluated several models including:
-   - Passive Aggressive Classifier (Best for online learning)
-   - Logistic Regression
-   - Naive Bayes
-   - Random Forest & Decision Trees
-   - Linear SVC
-   4.Optimization: Used "GridSearchCV" with "Cross-Validation" to find the most efficient hyperparameters.
+      -Passive Aggressive Classifier (Best for online learning)
+      -Logistic Regression
+      -Linear SVC
+      -Multinomial Naive Bayes
+   4.Optimization: 
+      -GridSearchCV
+      -Cross-Validation to find the most efficient hyperparameters.
 
 005📈 Key Results
 The model achieves a high accuracy rate (approx. 78%+), with the "Passive Aggressive Classifier" 
@@ -54,3 +60,37 @@ Fake-News-Detection/
 │   └── train.csv
 ├── notebooks/
 │   └── Fake_News_Analysis.ipynb
+
+
+007 🚀 Installation
+
+```bash
+git clone https://github.com/farmaieshi/Fake-News-Detection.git
+cd Fake-News-Detection
+pip install -r requirements.txt
+```
+
+▶️ Usage
+
+Open the Jupyter Notebook:
+
+```bash
+jupyter notebook
+```
+
+Open:
+
+```
+notebooks/Fake_News_Analysis.ipynb
+```
+
+Run all cells to reproduce the complete machine learning workflow.
+
+
+📌 Future Improvements
+
+- Deep Learning models (LSTM / BERT)
+- Model deployment using Flask or FastAPI
+- Interactive Streamlit dashboard
+- Explainable AI (SHAP / LIME)
+- Larger multilingual datasets
